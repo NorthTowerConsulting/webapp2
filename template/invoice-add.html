@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Add an Invoice</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Example Company</a>
+          <button class="navbar-togg ler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Invoices</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Invoices
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/view-invoices">View Invoices</a></li>
+                  <li><a class="dropdown-item" href="/edit-invoices">Edit Invoices</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/add-an-invoice">Add an invoice</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <center>
+<h1>Add An Invoice</h1> 
+    </center>
+<!-- Form for database-->
+<center>
+  
+
+  <br>
+
+
+  <form method="POST" action="">
+      <label><Fieldset>Customer Name</label><br>
+      <input type="text" name="customerName"><br>
+      <br>
+      <label>Customer address</label><br>
+      <input type="text" name="customerAddress"><br>
+      <br>
+      <label><fieldset>Date</fieldset><br>
+      <input type="date" name="date"><br>
+      <br>
+      <label><fieldset>Invoice Number</fieldset><br>
+      <input type="number" name="Invoicenumber"><br>
+      <br>
+      <label><fieldset>Description</fieldset><br>
+      <input type="text" name="Description"><br>
+      <br>
+      <label><fieldset>Invoice Totals</fieldset><br>
+      <input type="number" name="invoiceTotals"><br>
+      <br>
+      <input type="submit">
+      <br>
+      <input type="reset">
+
+  </form>
+
+
+
+  
+</center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
